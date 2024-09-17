@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className='ml-[400px]'>
+    <div className='ml-[400px] font-mono'>
       <ToDoList />
     </div>
   )

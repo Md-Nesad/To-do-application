@@ -1,24 +1,27 @@
 .todo-item{
-    position: relative;
-    background-color: white;
-    width: 500px;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+  position: relative;
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .icon{
-    color: black;
-    cursor: pointer;
-    font-size: 27px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    transition: 0.3s;
+  color: black;
+  cursor: pointer;
+  font-size: 27px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: 0.3s;
 }
 .icon:hover{
-    background-color: rgb(144, 54, 54);
-    color: white;
+  background-color: rgb(144, 54, 54);
+  color: white;
 }
 .center{
-    margin: 0 auto;
+  margin: 0 auto;
+}
+.Todobody{
+  background-color: gray;
 }
