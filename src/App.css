@@ -1,4 +1,4 @@
-.todo-item{
+.todo-item {
   position: relative;
   background-color: white;
   width: 500px;
@@ -6,7 +6,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.icon{
+.icon {
   color: black;
   cursor: pointer;
   font-size: 27px;
@@ -15,13 +15,13 @@
   right: 10px;
   transition: 0.3s;
 }
-.icon:hover{
+.icon:hover {
   background-color: rgb(144, 54, 54);
   color: white;
 }
-.center{
+.center {
   margin: 0 auto;
 }
-.Todobody{
+.Todobody {
   background-color: gray;
 }

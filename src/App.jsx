@@ -1,12 +1,12 @@
-import ToDoList from './components/todolist'
-import './App.css'
+import ToDoList from "./components/ToDoList";
+import "./App.css";
 
 function App() {
   return (
-    <div className='ml-[400px] font-mono'>
+    <div className="ml-[450px] font-mono">
       <ToDoList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
