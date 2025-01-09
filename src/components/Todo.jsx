@@ -9,7 +9,7 @@ export default function Todo({ item, deleteItem, index }) {
           {item}{" "}
           <TiDelete
             className="icon"
-            onClick={(e) => {
+            onClick={() => {
               deleteItem(index);
             }}
           />

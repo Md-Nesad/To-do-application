@@ -2,7 +2,11 @@ import React, { useState } from "react";
 
 export default function Form({ addTodoList }) {
   const [inputValue, setInputValue] = useState("");
+
   const handleSubmit = (e) => {
+    if (inputValue === "") {
+      return alert("Add one task first");
+    }
     e.preventDefault();
     addTodoList(inputValue);
     setInputValue("");
